@@ -7,6 +7,7 @@ def home(request):
    return render(request,'home.html',{'name':'Ana Sofia A.M'})
 
 def About(request):
-    return HttpResponse('<center><h1>Welcome to About Page :)</h1><center>')
+    #return HttpResponse('<center><h1>Welcome to About Page :)</h1><center>')
+    return render(request,'about.html',{'name':'Ana Sofia A.M'})
 
 # Create your views here.S
